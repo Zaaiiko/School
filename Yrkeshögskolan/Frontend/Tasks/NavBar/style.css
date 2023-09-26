@@ -25,17 +25,18 @@ li a  {
     text-decoration: none;
     padding: 2rem 3rem;
     font-size: 1.5rem;
+    border-right: 1px solid red
 }
 
 li a:hover {
-    color: rgb(220, 220, 220);
+    color: #ffffff;
+    background-color: red;
 }
 
 /* ***ARTICLES***  */
 
 .main-article {
-    display: flex;
-    align-items: flex-start;
+    flex-grow: 1;
     background-color: rgb(245, 245, 245);
     color: rgb(0, 0, 0);
     margin: 1rem;
@@ -51,10 +52,17 @@ li a:hover {
 }
 
 footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
     display: flex;
     background-color: rgb(245, 245, 245);
     color: black;
-    margin: 1rem;
     padding: 1rem;
+}
+
+footer li {
+    color: black;
+    margin: 0.5rem;
 }
 
