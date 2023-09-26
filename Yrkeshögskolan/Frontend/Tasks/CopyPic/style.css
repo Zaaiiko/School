@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(159, 220, 197);
+}
+
+.box1 {
+  color: grey;
+}
+
+.box2 {
+  border-color: hotpink;
+  border-style: solid;
+  background-color: hotpink;
+}
+
+.DoorbellCenter {
+  text-align: center;
+}
+
+.SleighbellsRight {
+  text-align: right;
+}
+
+.ScnitzelCenter {
+    text-align: center;
+}

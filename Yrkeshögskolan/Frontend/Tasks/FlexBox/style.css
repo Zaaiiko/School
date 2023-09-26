@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #858585;
+  align-items: center;
+  padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 4rem;
+}
+
+nav ul li:last-child {
+    margin-right: 10rem;
+
+}
+
+nav a {
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.1rem;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav ul li a {
+    color: black;
+}
+
+/****************** Boxar **********************/* 
+
+main.container {
+    display: flex;
+    border: 3px solid #858585 ;
+    width: 80%;
+    margin: 1rem auto;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+main.container > * {
+    width: 10rem;
+    height: 10rem;
+    background-color: #858585;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+}
